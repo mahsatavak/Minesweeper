@@ -30,6 +30,7 @@ public:
         tableWidget = new QTableWidget(Statistik);
         tableWidget->setObjectName(QString::fromUtf8("tableWidget"));
         tableWidget->setGeometry(QRect(20, 30, 351, 251));
+        tableWidget->horizontalHeader()->setStretchLastSection(true);
 
         retranslateUi(Statistik);
 
